@@ -15,7 +15,7 @@ int main()
         suma+=i;
         i=i+1;
     }
-        printf("La suma del numero %d es: %d \n",num,suma);
+        printf("La suma de gauss del numero %d es: %d \n",num,suma);
     }
     printf("Gracias por usar el programa \n");
     
