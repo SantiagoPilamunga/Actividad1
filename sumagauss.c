@@ -7,7 +7,7 @@ int main()
     scanf("%d",&num);
     if (num<0)
     {
-        printf("la operacion no se puede realizar");
+        printf("La operacion no se puede realizar \n");
     }else{
         while (i<=num)
     {
@@ -15,9 +15,9 @@ int main()
         suma+=i;
         i=i+1;
     }
-        printf("la suma del numero %d es: %d",num,suma);
+        printf("La suma del numero %d es: %d \n",num,suma);
     }
-    
+    printf("Gracias por usar el programa \n");
     
     
     return 0;
