@@ -2,7 +2,7 @@
 int main()
 {
     int num,i=1;
-    int suma=1;
+    int suma=0;
     printf("Ingrese un numero");
     scanf("%d",&num);
     if (num<0)
@@ -11,7 +11,9 @@ int main()
     }else{
         while (i!=num)
     {
-        /* code */
+        
+        suma+=i;
+        i=i+1;
     }
 
     }
